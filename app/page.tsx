@@ -1,8 +1,6 @@
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import { GlobeDemo } from "@/components/ui/grid-globe";
-import Image from "next/image";
 import { FaHome } from "react-icons/fa";
 
 export default function Home() {
@@ -18,7 +16,7 @@ export default function Home() {
         />
         <Hero />
         <Grid />
-        {/* <GlobeDemo /> */}
+
 
       </div>
     </main>
